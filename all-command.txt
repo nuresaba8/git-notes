@@ -1,0 +1,94 @@
+1. check info= dir
+2. back previous folder/file= cd ..
+3. create folder= mkdir name
+4. delete folder= rmdir name
+5. delete a folder that contains files= rmdir /s foldername
+6. create file= type nul > name
+7. delete file= del name
+8. write in file= echo "write" > name
+9. set name globally= git config --global user.name "name"
+10. set email globally= git config --global user.email        "email"
+11. set name locally= git config --local user.name "name"
+12. set email locally= git config --local user.email "email"
+13. check config= git config --list
+14. clear all= cls
+15. unset config= git config --global --unset user.email
+16. check git location= dir /a
+17. open .gitconfig= notepad %USERPROFILE%\.gitconfig
+18. create connection with other computer/GitHub
+
+create folder= mkdir .ssh
+go to that folder= cd .ssh
+public/private key generate= ssh-keygen -o -t rsa -C nuresaba686@gmail.com
+pass= 12345678us
+
+
+19. download folder from github= git clone copyPaste.ssh
+20. initializing git repository on a folder as a git= git init 
+21. check that folder= dir /a
+22. check status= git status
+23. staging area/ track file= git add name
+24. staging all folder and sub folder= git add -a
+25. staging all folder without sub= git add .
+26. staging wildcard folder= git add *.js
+27. staging wildcard folder and sub= git add **/*.js
+28. after writing something on the file save it= git add name
+29. if want to back in previous state= git restore name
+30. to check what changes are made= git diff
+31. staging to local= git commit -m "understandable message"
+32. check git changes history after commit= git log
+33. do commit and staging together= >git add fileName && git commit -m "understandable message"
+34. uncommit git= git reset --soft HEAD^
+35. uncommit and remove staging git= git reset HEAD^
+36. back to previous commit= git reset --hard HEAD^
+37. undo changes = git checkout commitID
+38. check specific changes= git show commitID
+39. recent commit check= git checkout master
+40. hide file= open .gitignore-> write file name-> save
+41. hide all file/except one/ everything of a folder=   open .gitignore-> write *.txt/ !name.txt/ name/ 
+42. create shortcut= git config --global alias.s "status"
+43. unset shortcut= git config --global --unset alias.s
+44. design read me----------
+	1. --- (scale)
+	2. # "write" (h1)
+	3. <p> </p>
+	4. _saba_ (italic)
+	5. double tap space for new line
+	6. __saba__ (bold)
+	7. ~~saba~~ (middle cut letters)
+	8. `Saba` (in line code) (```saba``` for multiple line)
+	9. 1. item1
+	10. ###Title
+	11. -iteam1 (unordered list)
+	12. (Task list)
+	13. http://dfwefwef (enable link)
+	14. `http://dfwefwef` (disable link)
+	15. [title](link) (link with modified name)
+	16. ![alt text](image) (image)
+	17. emoji copy paste
+	18. | Name | Email |  (table)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
